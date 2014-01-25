@@ -4,6 +4,7 @@
 int main(int argc, char **argv)
 {
 	generator();
+	std::cin.get();
 	return 0;
 }
 
