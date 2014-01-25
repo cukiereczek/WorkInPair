@@ -1,3 +1,5 @@
-for (int i = 0;i < 100; i++){
-	std::cout << "i: " << i;
+double generator(int i = 100)
+{
+	for (int k = 0; k < i; k++)
+		std::cout << i;
 }	
