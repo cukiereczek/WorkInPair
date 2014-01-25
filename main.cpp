@@ -3,7 +3,7 @@
 
 int main(int argc, char **argv)
 {
-	generator();
+	generator(5);
 	std::cin.get();
 	return 0;
 }
